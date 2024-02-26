@@ -60,7 +60,7 @@ export default function Homepage({
         description={null}
         typedInfo={{
           textBefore: "A",
-          strings: ["Fullstack Web Developer", "Your Guy"],
+          strings: ["Fullstack Web Developer", "Nice Guy"],
           typeSpeed: 80,
           backSpeed: 50,
           backDelay: 2000,
