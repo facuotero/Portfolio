@@ -14,8 +14,9 @@ export default function Skills() {
 
         {/* Skills Grid */}
         <div className="grid grid-cols-1 gap-8 py-8 text-center 2sm:grid-cols-2 sm:gap-12 md:grid-cols-3 xl:grid-cols-4">
-          <Skill image="ndjs.png">NodeJs</Skill>
           <Skill image="JavaScript.png">JavaScript</Skill>
+          <Skill image="TypeScript.png">TypeScript</Skill>
+          <Skill image="ndjs.png">NodeJs</Skill>
           <Skill image="psgres.png">PostgreSQL</Skill>
           <Skill image="xpress.png">Express</Skill>
           <Skill image="sequelize.png">Sequelize</Skill>
