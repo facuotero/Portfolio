@@ -18,9 +18,12 @@ export default function Skills() {
           <Skill image="TypeScript.png">TypeScript</Skill>
           <Skill image="ndjs.png">NodeJs</Skill>
           <Skill image="psgres.png">PostgreSQL</Skill>
+          <Skill image="MongoDB.png">MongoDB</Skill>
           <Skill image="xpress.png">Express</Skill>
+          <Skill image="Mongoose.png">Mongoose</Skill>
           <Skill image="sequelize.png">Sequelize</Skill>
           <Skill image="React.png">React</Skill>
+          <Skill image="ReactNative.png">React Native</Skill>
           <Skill image="Next.png">Next.js</Skill>
           <Skill image="Redux.png">Redux</Skill>
           <Skill image="HTML.png">HTML</Skill>
