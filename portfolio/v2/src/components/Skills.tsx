@@ -23,7 +23,7 @@ export default function Skills() {
           <Skill image="Mongoose.png">Mongoose</Skill>
           <Skill image="sequelize.png">Sequelize</Skill>
           <Skill image="React.png">React</Skill>
-          <Skill image="ReactNative.png">React Native</Skill>
+          <Skill image="React.png">React Native</Skill>
           <Skill image="Next.png">Next.js</Skill>
           <Skill image="Redux.png">Redux</Skill>
           <Skill image="HTML.png">HTML</Skill>
