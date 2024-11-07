@@ -19,7 +19,7 @@ export default function Portfolio() {
           <Project
             image="edee.png"
             description="Student Desktop is a web platform designed for the Executive School, focused on providing a complete and accessible educational experience for professionals. The application allows students to manage their coursework, access educational materials, interact with teachers and peers, and track their academic progress. It also includes a personalized profile and a calendar for exams and classes, optimizing both user experience and educational management for the institution."
-            techStack="Nextjs, Typescript, Redux Toolkit, TailwindCss"
+            techStack="Nextjs, Typescript, Redux Toolkit, TailwindCSS"
             buttons={[
               {
                 name: "GitHub",
