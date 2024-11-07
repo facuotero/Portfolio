@@ -28,6 +28,7 @@ export default function Skills() {
           <Skill image="Redux.png">Redux</Skill>
           <Skill image="HTML.png">HTML</Skill>
           <Skill image="CSS.png">CSS</Skill>
+          <Skill image="TailwindCSS.png">TailwindCSS</Skill>
           <Skill image="git.png">Git</Skill>
         </div>
       </div>
