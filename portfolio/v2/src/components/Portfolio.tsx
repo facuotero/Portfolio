@@ -1,7 +1,6 @@
 import Project from "./Project";
-import { FaGithub} from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
-
 
 export default function Portfolio() {
   return (
@@ -17,13 +16,32 @@ export default function Portfolio() {
 
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
+          <Project
+            image="edee.png"
+            description="Student Desktop is a web platform designed for the Executive School, focused on providing a complete and accessible educational experience for professionals. The application allows students to manage their coursework, access educational materials, interact with teachers and peers, and track their academic progress. It also includes a personalized profile and a calendar for exams and classes, optimizing both user experience and educational management for the institution."
+            techStack="Nextjs,Redux Toolkit, Tailwind, Typescript, Express, MongoDB, Node.js"
+            buttons={[
+              {
+                name: "GitHub",
+                image: FaGithub,
+                link: "https://github.com/facuotero/student-desktop",
+              },
 
-        <Project
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://student-desktop.vercel.app/",
+              },
+            ]}
+          >
+            Student Desktop
+          </Project>
+
+          <Project
             image="lewe.png"
             description="Lewe Sportlife is a freelance project focused on providing an exceptional experience to squash, paddle, and sportswear enthusiasts. We developed an intuitive web platform with a personalized purchasing process via WhatsApp and a Dashboard to streamline product management and optimize business operations."
             techStack="React,Redux, CSS, JavaScript, Express, PostgreSQL,Sequelize, Node.js"
             buttons={[
-             
               {
                 name: "GitHub",
                 image: FaGithub,
@@ -34,8 +52,7 @@ export default function Portfolio() {
                 name: "Deploy",
                 image: MdWeb,
                 link: "https://www.lewesportlife.com/",
-              }
-             
+              },
             ]}
           >
             Lewe Sportlife
@@ -47,7 +64,6 @@ export default function Portfolio() {
             An innovative event support app. It empowers producers to easily promote events through community membership. Features tailored for Administrators include event management and ticket allocation, while Users can browse events, purchase tickets, and provide feedback. SuperAdmin capabilities include managing permissions and handling user reviews"
             techStack="Next.js,Redux, TailwindCSS, JavaScript, Express, PostgreSQL,Sequelize, Node.js"
             buttons={[
-             
               {
                 name: "GitHub",
                 image: FaGithub,
@@ -58,8 +74,7 @@ export default function Portfolio() {
                 name: "Deploy",
                 image: MdWeb,
                 link: "https://lighthearted-entremet-b6aec9.netlify.app/",
-              }
-             
+              },
             ]}
           >
             EventifyPro
@@ -86,19 +101,15 @@ export default function Portfolio() {
             Developed a feature-rich Rick and Morty web app with user registration, secure database handling, and intuitive character navigation. Included Favorites for secure character saving and detailed views for an enhanced user experience."
             techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
             buttons={[
-             
               {
                 name: "GitHub",
                 image: FaGithub,
                 link: "https://github.com/facuotero/Rick-Morty",
               },
-             
             ]}
           >
             Rick and Morty Web App
           </Project>
-
-          
         </div>
       </div>
     </section>
