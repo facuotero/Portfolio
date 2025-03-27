@@ -38,6 +38,20 @@ export default function Portfolio() {
           </Project>
 
           <Project
+            image="northpines.png"
+            description="Website developed for NorthPines Landscaping, a landscaping company based in Colorado. The site focuses on performance and local SEO, featuring service sections, a portfolio gallery, and a contact form. Fully responsive and optimized for user experience across devices."
+            techStack="Next.js, Tailwind CSS, TypeScript"
+            buttons={[
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://northpineslandscapingco.com/",
+              },
+            ]}
+          >
+            NorthPines Landscaping
+          </Project>
+          <Project
             image="lewe.png"
             description="Lewe Sportlife is a freelance project focused on providing an exceptional experience to squash, paddle, and sportswear enthusiasts. We developed an intuitive web platform with a personalized purchasing process via WhatsApp and a Dashboard to streamline product management and optimize business operations."
             techStack="React,Redux, CSS, JavaScript, Express, PostgreSQL,Sequelize, Node.js"
@@ -95,7 +109,7 @@ export default function Portfolio() {
             Videogames API
           </Project>
 
-          <Project
+          {/* <Project
             image="rym2.png"
             description="
             Developed a feature-rich Rick and Morty web app with user registration, secure database handling, and intuitive character navigation. Included Favorites for secure character saving and detailed views for an enhanced user experience."
@@ -109,7 +123,7 @@ export default function Portfolio() {
             ]}
           >
             Rick and Morty Web App
-          </Project>
+          </Project> */}
         </div>
       </div>
     </section>
