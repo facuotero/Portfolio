@@ -17,6 +17,20 @@ export default function Portfolio() {
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
           <Project
+            image="bendito.png"
+            description="Minimalist Shopify store for an artisanal olive oil brand. Mobile-first UX and clean PDPs with a frictionless checkout. ShipNow automates rates, labels, pickups, and live tracking—streamlining ops from purchase to delivery while boosting conversion."
+            techStack="Liquid, Shopify, Shipnow API"
+            buttons={[
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://www.benditoaceite.com/",
+              },
+            ]}
+          >
+            Bendito Oil
+          </Project>
+          <Project
             image="combeeLanding.png"
             description="Built a responsive landing page for Combee, a ridesharing startup from Argentina. Developed with Next.js and Tailwind CSS, optimized for speed and SEO. The landing communicates the brand’s value proposition, showcases features, and includes CTAs to download the app and join the community."
             techStack="Next.js, Tailwind CSS"
