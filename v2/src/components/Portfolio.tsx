@@ -17,26 +17,33 @@ export default function Portfolio() {
         {/* Projects Grid */}
         <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
           <Project
-            image="edee.png"
-            description="Student Desktop is a web platform designed for the Executive School, focused on providing a complete and accessible educational experience for professionals. The application allows students to manage their coursework, access educational materials, interact with teachers and peers, and track their academic progress. It also includes a personalized profile and a calendar for exams and classes, optimizing both user experience and educational management for the institution."
-            techStack="Nextjs, Typescript, Redux Toolkit, TailwindCSS"
+            image="combeeLanding.png"
+            description="Built a responsive landing page for Combee, a ridesharing startup from Argentina. Developed with Next.js and Tailwind CSS, optimized for speed and SEO. The landing communicates the brand’s value proposition, showcases features, and includes CTAs to download the app and join the community."
+            techStack="Next.js, Tailwind CSS"
             buttons={[
-              {
-                name: "GitHub",
-                image: FaGithub,
-                link: "https://github.com/facuotero/student-desktop",
-              },
-
               {
                 name: "Deploy",
                 image: MdWeb,
-                link: "https://student-desktop.vercel.app/",
+                link: "https://www.combee.com.ar/",
               },
             ]}
           >
-            Student Desktop
+            Combee Landing
           </Project>
-
+          <Project
+            image="dallaswear.png"
+            description="Dallaswear uniforms (https://dallaswearuniforms.com/) digital platform, helped modernizing their operations and improve internal efficiency. Migrated from Google Sheets with Google Appscript. My contributions focused on clean creating reusable components, and integrating services across the admin and financial dashboards."
+            techStack="Next.js, React Query, Supabase"
+            buttons={[
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://dallaswear-tasks.vercel.app/",
+              },
+            ]}
+          >
+            Dallaswear Task Manager
+          </Project>
           <Project
             image="northpines.png"
             description="Website developed for NorthPines Landscaping, a landscaping company based in Colorado. The site focuses on performance and local SEO, featuring service sections, a portfolio gallery, and a contact form. Fully responsive and optimized for user experience across devices."
@@ -50,6 +57,34 @@ export default function Portfolio() {
             ]}
           >
             NorthPines Landscaping
+          </Project>
+          <Project
+            image="CombeeApp.png"
+            description="Combee is a local carpooling platform developed in Argentina, connecting drivers and passengers heading to the same destination. I worked on the mobile app (React Native) implementing secure authentication (Firebase), real-time trip management, and a serverless backend (Node.js + AWS Lambda + MongoDB) using clean architecture for scalability."
+            techStack="React Native, Expo, AWS, Nodejs, MongoDB"
+            buttons={[
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://www.combee.com.ar/",
+              },
+            ]}
+          >
+            Combee Mobile App
+          </Project>
+          <Project
+            image="laSoiree.png"
+            description="Internal management platform designed for event production companies. The platform streamlines workflow management, client coordination, and project tracking for event organizers. Features include task management, timeline coordination, vendor management, and real-time collaboration tools to optimize the production process from planning to execution."
+            techStack="Nextjs, TailwindCSS, Supabase"
+            buttons={[
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://la-soiree.vercel.app/",
+              },
+            ]}
+          >
+            La Soirée Producer
           </Project>
           <Project
             image="lewe.png"
@@ -70,6 +105,26 @@ export default function Portfolio() {
             ]}
           >
             Lewe Sportlife
+          </Project>
+          <Project
+            image="edee.png"
+            description="Student Desktop is a web platform designed for the Executive School, focused on providing a complete and accessible educational experience for professionals. The application allows students to manage their coursework, access educational materials, interact with teachers and peers, and track their academic progress. It also includes a personalized profile and a calendar for exams and classes, optimizing both user experience and educational management for the institution."
+            techStack="Nextjs, Typescript, Redux Toolkit, TailwindCSS"
+            buttons={[
+              {
+                name: "GitHub",
+                image: FaGithub,
+                link: "https://github.com/facuotero/student-desktop",
+              },
+
+              {
+                name: "Deploy",
+                image: MdWeb,
+                link: "https://student-desktop.vercel.app/",
+              },
+            ]}
+          >
+            Student Desktop
           </Project>
 
           <Project
