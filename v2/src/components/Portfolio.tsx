@@ -178,21 +178,21 @@ export default function Portfolio() {
             Videogames API
           </Project>
 
-          {/* <Project
-            image="rym2.png"
+          <Project
+            image="laburen.png"
             description="
-            Developed a feature-rich Rick and Morty web app with user registration, secure database handling, and intuitive character navigation. Included Favorites for secure character saving and detailed views for an enhanced user experience."
-            techStack="React, Redux, Css, JavaScript, Express, PostgreSQL"
+  Frontend development of the LaburenAI landing page, focused on performance, scalability, and a clean modular architecture. The project follows a mobile-first approach, with reusable UI components, optimized images, and SEO best practices to deliver a fast and modern user experience."
+            techStack="Next.js 15, TypeScript, Tailwind CSS, Shadcn/UI, Radix UI, Vercel"
             buttons={[
               {
                 name: "GitHub",
                 image: FaGithub,
-                link: "https://github.com/facuotero/Rick-Morty",
+                link: "https://github.com/facuotero/laburenai-landing",
               },
             ]}
           >
-            Rick and Morty Web App
-          </Project> */}
+            LaburenAI Landing Page
+          </Project>
         </div>
       </div>
     </section>
