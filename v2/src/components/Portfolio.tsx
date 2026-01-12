@@ -31,6 +31,21 @@ export default function Portfolio() {
             Bendito Oil
           </Project>
           <Project
+            image="laburen.png"
+            description="
+  Frontend development of the LaburenAI landing page, focused on performance, scalability, and a clean modular architecture. The project follows a mobile-first approach, with reusable UI components, optimized images, and SEO best practices to deliver a fast and modern user experience."
+            techStack="Next.js 15, TypeScript, Tailwind CSS, Shadcn/UI, Radix UI, Vercel"
+            buttons={[
+              {
+                name: "GitHub",
+                image: FaGithub,
+                link: "https://github.com/facuotero/laburenai-landing",
+              },
+            ]}
+          >
+            LaburenAI Landing Page
+          </Project>
+          <Project
             image="combeeLanding.png"
             description="Built a responsive landing page for Combee, a ridesharing startup from Argentina. Developed with Next.js and Tailwind CSS, optimized for speed and SEO. The landing communicates the brand’s value proposition, showcases features, and includes CTAs to download the app and join the community."
             techStack="Next.js, Tailwind CSS"
@@ -176,22 +191,6 @@ export default function Portfolio() {
             ]}
           >
             Videogames API
-          </Project>
-
-          <Project
-            image="laburen.png"
-            description="
-  Frontend development of the LaburenAI landing page, focused on performance, scalability, and a clean modular architecture. The project follows a mobile-first approach, with reusable UI components, optimized images, and SEO best practices to deliver a fast and modern user experience."
-            techStack="Next.js 15, TypeScript, Tailwind CSS, Shadcn/UI, Radix UI, Vercel"
-            buttons={[
-              {
-                name: "GitHub",
-                image: FaGithub,
-                link: "https://github.com/facuotero/laburenai-landing",
-              },
-            ]}
-          >
-            LaburenAI Landing Page
           </Project>
         </div>
       </div>
